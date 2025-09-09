@@ -1,0 +1,112 @@
+[
+ {
+  "department_name": "Todos los Departamentos",
+  "docstatus": 0,
+  "doctype": "Department",
+  "is_group": 1,
+  "modified": "2025-08-25 17:33:55.422675",
+  "name": "Todos los Departamentos",
+  "old_parent": "",
+  "parent_department": ""
+ },
+ {
+  "department_name": "RRHH",
+  "docstatus": 0,
+  "doctype": "Department",
+  "is_group": 0,
+  "modified": "2025-08-25 17:36:25.196142",
+  "name": "RRHH",
+  "old_parent": "Todos los Departamentos",
+  "parent_department": "Todos los Departamentos"
+ },
+ {
+  "department_name": "Operaciones",
+  "docstatus": 0,
+  "doctype": "Department",
+  "is_group": 1,
+  "modified": "2025-08-25 17:43:48.122202",
+  "name": "Operaciones",
+  "old_parent": "Todos los Departamentos",
+  "parent_department": "Todos los Departamentos"
+ },
+ {
+  "department_name": "Taller",
+  "docstatus": 0,
+  "doctype": "Department",
+  "is_group": 0,
+  "modified": "2025-08-25 17:43:58.247781",
+  "name": "Taller",
+  "old_parent": "Todos los Departamentos",
+  "parent_department": "Operaciones"
+ },
+ {
+  "department_name": "Bodega",
+  "docstatus": 0,
+  "doctype": "Department",
+  "is_group": 0,
+  "modified": "2025-08-25 17:44:06.177330",
+  "name": "Bodega",
+  "old_parent": "Todos los Departamentos",
+  "parent_department": "Todos los Departamentos"
+ },
+ {
+  "department_name": "Control Interno",
+  "docstatus": 0,
+  "doctype": "Department",
+  "is_group": 0,
+  "modified": "2025-08-25 17:44:26.336842",
+  "name": "Control Interno",
+  "old_parent": "Todos los Departamentos",
+  "parent_department": "Administracion"
+ },
+ {
+  "department_name": "TI",
+  "docstatus": 0,
+  "doctype": "Department",
+  "is_group": 0,
+  "modified": "2025-08-25 17:44:36.140762",
+  "name": "TI",
+  "old_parent": "Todos los Departamentos",
+  "parent_department": "Todos los Departamentos"
+ },
+ {
+  "department_name": "Compras",
+  "docstatus": 0,
+  "doctype": "Department",
+  "is_group": 0,
+  "modified": "2025-08-25 17:45:10.385362",
+  "name": "Compras",
+  "old_parent": "Todos los Departamentos",
+  "parent_department": "Administracion"
+ },
+ {
+  "department_name": "Legal",
+  "docstatus": 0,
+  "doctype": "Department",
+  "is_group": 0,
+  "modified": "2025-08-25 17:45:19.679810",
+  "name": "Legal",
+  "old_parent": "Todos los Departamentos",
+  "parent_department": "Administracion"
+ },
+ {
+  "department_name": "Contabilidad",
+  "docstatus": 0,
+  "doctype": "Department",
+  "is_group": 0,
+  "modified": "2025-08-25 17:36:30.705793",
+  "name": "Contabilidad",
+  "old_parent": "Todos los Departamentos",
+  "parent_department": "Todos los Departamentos"
+ },
+ {
+  "department_name": "Administracion",
+  "docstatus": 0,
+  "doctype": "Department",
+  "is_group": 1,
+  "modified": "2025-08-25 17:44:13.678628",
+  "name": "Administracion",
+  "old_parent": "Todos los Departamentos",
+  "parent_department": "Todos los Departamentos"
+ }
+]

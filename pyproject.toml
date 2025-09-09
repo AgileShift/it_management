@@ -1,15 +1,13 @@
 [project]
 name = "it_management"
 authors = [
-    { name = "Agile Shift I/O", email = "contacto@gruporeal.org"}
+    { name = "Agile Shift", email = "contacto@gruporeal.org"}
 ]
 description = "IT Management Tools"
-requires-python = ">=3.10"
+requires-python = ">=3.10,<3.14"
 readme = "README.md"
 dynamic = ["version"]
-dependencies = [
-    # "frappe~=15.0.0" # Installed and managed by bench.
-]
+dependencies = []
 
 [build-system]
 requires = ["flit_core >=3.4,<4"]

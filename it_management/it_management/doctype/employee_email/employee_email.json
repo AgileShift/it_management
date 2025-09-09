@@ -1,0 +1,44 @@
+{
+ "actions": [],
+ "creation": "2025-08-25 18:43:37.007432",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "email",
+  "type"
+ ],
+ "fields": [
+  {
+   "bold": 1,
+   "fieldname": "email",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Email Account",
+   "options": "Email",
+   "reqd": 1
+  },
+  {
+   "bold": 1,
+   "columns": 2,
+   "fetch_from": "email.type",
+   "fieldname": "type",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "label": "Type"
+  }
+ ],
+ "grid_page_length": 10,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-08-25 22:29:19.428328",
+ "modified_by": "Administrator",
+ "module": "IT Management",
+ "name": "Employee Email",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

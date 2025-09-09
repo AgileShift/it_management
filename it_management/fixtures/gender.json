@@ -1,0 +1,16 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Gender",
+  "gender": "Femenino",
+  "modified": "2025-08-25 18:00:37.251197",
+  "name": "Femenino"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Gender",
+  "gender": "Masculino",
+  "modified": "2025-08-25 18:00:32.947102",
+  "name": "Masculino"
+ }
+]
