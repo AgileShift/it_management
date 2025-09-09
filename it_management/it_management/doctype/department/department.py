@@ -17,3 +17,4 @@ class Department(NestedSet):
 		parent_department: DF.Link | None
 		rgt: DF.Int
 	# end: auto-generated types
+	pass
