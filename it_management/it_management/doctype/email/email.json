@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "field:email",
  "creation": "2025-08-25 18:40:00.618091",
@@ -50,7 +51,7 @@
    "table_fieldname": "assigned_emails"
   }
  ],
- "modified": "2025-08-25 22:31:44.815757",
+ "modified": "2025-09-10 14:19:22.248743",
  "modified_by": "Administrator",
  "module": "IT Management",
  "name": "Email",
@@ -74,5 +75,6 @@
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
- "track_changes": 1
+ "track_changes": 1,
+ "track_seen": 1
 }

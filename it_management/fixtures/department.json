@@ -1,15 +1,5 @@
 [
  {
-  "department_name": "Todos los Departamentos",
-  "docstatus": 0,
-  "doctype": "Department",
-  "is_group": 1,
-  "modified": "2025-08-25 17:33:55.422675",
-  "name": "Todos los Departamentos",
-  "old_parent": "",
-  "parent_department": ""
- },
- {
   "department_name": "RRHH",
   "docstatus": 0,
   "doctype": "Department",
@@ -128,5 +118,15 @@
   "name": "Comercial",
   "old_parent": "Todos los Departamentos",
   "parent_department": "Todos los Departamentos"
+ },
+ {
+  "department_name": "Todos los Departamentos",
+  "docstatus": 0,
+  "doctype": "Department",
+  "is_group": 1,
+  "modified": "2025-08-25 17:33:55.422675",
+  "name": "Todos los Departamentos",
+  "old_parent": "",
+  "parent_department": ""
  }
 ]
