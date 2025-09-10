@@ -37,8 +37,6 @@
    "bold": 1,
    "fieldname": "first_name",
    "fieldtype": "Data",
-   "in_list_view": 1,
-   "in_standard_filter": 1,
    "label": "First Name",
    "reqd": 1
   },
@@ -48,10 +46,9 @@
    "label": "Middle Name"
   },
   {
+   "bold": 1,
    "fieldname": "last_name",
    "fieldtype": "Data",
-   "in_list_view": 1,
-   "in_standard_filter": 1,
    "label": "Last Name",
    "reqd": 1
   },
@@ -190,7 +187,7 @@
    "link_fieldname": "reports_to"
   }
  ],
- "modified": "2025-09-10 17:35:48.525818",
+ "modified": "2025-09-10 17:43:21.885558",
  "modified_by": "Administrator",
  "module": "IT Management",
  "name": "Employee",
