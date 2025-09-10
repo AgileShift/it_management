@@ -36,7 +36,7 @@
   "is_group": 0,
   "modified": "2025-08-25 17:43:58.247781",
   "name": "Taller",
-  "old_parent": "Todos los Departamentos",
+  "old_parent": "Operaciones",
   "parent_department": "Operaciones"
  },
  {
@@ -56,7 +56,7 @@
   "is_group": 0,
   "modified": "2025-08-25 17:44:26.336842",
   "name": "Control Interno",
-  "old_parent": "Todos los Departamentos",
+  "old_parent": "Administracion",
   "parent_department": "Administracion"
  },
  {
@@ -76,7 +76,7 @@
   "is_group": 0,
   "modified": "2025-08-25 17:45:10.385362",
   "name": "Compras",
-  "old_parent": "Todos los Departamentos",
+  "old_parent": "Administracion",
   "parent_department": "Administracion"
  },
  {
@@ -86,7 +86,7 @@
   "is_group": 0,
   "modified": "2025-08-25 17:45:19.679810",
   "name": "Legal",
-  "old_parent": "Todos los Departamentos",
+  "old_parent": "Administracion",
   "parent_department": "Administracion"
  },
  {
