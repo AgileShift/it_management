@@ -1,3 +1,4 @@
+import frappe
 from frappe.model.document import Document
 
 
@@ -14,3 +15,7 @@ class Email(Document):
 		password: DF.Password | None
 		type: DF.Literal["Email", "Alias", "Forwarder"]
 	# end: auto-generated types
+
+	@frappe.whitelist(allow_guest=False)
+	def get_password(self):
+		return super().get_password()

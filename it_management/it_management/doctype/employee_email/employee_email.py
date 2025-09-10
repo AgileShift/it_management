@@ -16,3 +16,4 @@ class EmployeeEmail(Document):
 		parenttype: DF.Data
 		type: DF.ReadOnly | None
 	# end: auto-generated types
+	pass
