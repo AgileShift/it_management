@@ -25,3 +25,4 @@ class Employee(Document):
 		personal_phone: DF.Phone | None
 		reports_to: DF.Link | None
 	# end: auto-generated types
+	pass
