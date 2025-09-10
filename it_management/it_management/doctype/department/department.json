@@ -3,6 +3,7 @@
  "allow_rename": 1,
  "autoname": "field:department_name",
  "creation": "2025-08-25 17:27:28.700433",
+ "default_view": "List",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
@@ -88,7 +89,7 @@
    "link_fieldname": "department"
   }
  ],
- "modified": "2025-08-25 22:34:14.611664",
+ "modified": "2025-09-09 21:24:33.110792",
  "modified_by": "Administrator",
  "module": "IT Management",
  "name": "Department",
