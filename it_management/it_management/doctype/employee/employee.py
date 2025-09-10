@@ -16,7 +16,7 @@ class Employee(Document):
 		branch: DF.Link
 		company: DF.Literal["Distribuidora Reyes NIC", "Distribuidora Reyes CR", "Transporte Reyes", "Kings Exports Imports", "Grupo Reyes"]
 		department: DF.Link
-		designation: DF.Literal["Contador", "Auxiliar Contable", "Vendedor", "Jefe de Area", "Supervisor"]
+		designation: DF.Literal["Analista", "Auditor", "Auxiliar de Bodega", "Cajero", "Cajero\\Liquidador", "Cartera y Cobro", "Compras", "Contador", "Contador Rotativo", "Ejecutivo de Venta", "Importaciones", "Jefe de Area", "Liquidador", "Reponsable de Modulo", "Responsable de Bodega", "RRHH", "Soporte Tecnico", "Supervisor", "Supervisor de CEDI", "Supervisor de Modulo"]
 		first_name: DF.Data
 		gender: DF.Link | None
 		last_name: DF.Data

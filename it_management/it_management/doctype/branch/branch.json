@@ -1,7 +1,9 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:branch_name",
  "creation": "2025-08-22 08:52:08.633724",
+ "default_view": "List",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
@@ -44,6 +46,7 @@
   {
    "fieldname": "old_parent",
    "fieldtype": "Link",
+   "hidden": 1,
    "label": "Old Parent",
    "options": "Branch"
   },
@@ -60,7 +63,8 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Sucursal",
-   "reqd": 1
+   "reqd": 1,
+   "unique": 1
   },
   {
    "fieldname": "column_break_zczk",
@@ -70,11 +74,18 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_tree": 1,
- "links": [],
- "modified": "2025-08-22 08:54:05.046909",
+ "links": [
+  {
+   "group": "People",
+   "link_doctype": "Employee",
+   "link_fieldname": "branch"
+  }
+ ],
+ "modified": "2025-09-10 11:24:35.061656",
  "modified_by": "Administrator",
  "module": "IT Management",
  "name": "Branch",
+ "naming_rule": "By fieldname",
  "nsm_parent_field": "parent_branch",
  "owner": "Administrator",
  "permissions": [
@@ -91,8 +102,10 @@
    "write": 1
   }
  ],
+ "quick_entry": 1,
  "row_format": "Dynamic",
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "track_changes": 1
 }

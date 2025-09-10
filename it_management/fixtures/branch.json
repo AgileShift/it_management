@@ -1,0 +1,72 @@
+[
+ {
+  "branch_name": "CEDI Oriental",
+  "docstatus": 0,
+  "doctype": "Branch",
+  "is_group": 0,
+  "modified": "2025-09-10 11:25:41.361790",
+  "name": "CEDI Oriental",
+  "old_parent": "",
+  "parent_branch": null
+ },
+ {
+  "branch_name": "CEDI Juigalpa",
+  "docstatus": 0,
+  "doctype": "Branch",
+  "is_group": 0,
+  "modified": "2025-09-10 11:26:02.594542",
+  "name": "CEDI Juigalpa",
+  "old_parent": "",
+  "parent_branch": null
+ },
+ {
+  "branch_name": "CEDI Sebaco",
+  "docstatus": 0,
+  "doctype": "Branch",
+  "is_group": 0,
+  "modified": "2025-09-10 11:26:07.766827",
+  "name": "CEDI Sebaco",
+  "old_parent": "",
+  "parent_branch": null
+ },
+ {
+  "branch_name": "CEDI Granada",
+  "docstatus": 0,
+  "doctype": "Branch",
+  "is_group": 0,
+  "modified": "2025-09-10 11:26:15.476943",
+  "name": "CEDI Granada",
+  "old_parent": "",
+  "parent_branch": null
+ },
+ {
+  "branch_name": "DR CR",
+  "docstatus": 0,
+  "doctype": "Branch",
+  "is_group": 0,
+  "modified": "2025-09-10 11:27:41.326272",
+  "name": "DR CR",
+  "old_parent": "",
+  "parent_branch": null
+ },
+ {
+  "branch_name": "Transporte Reyes",
+  "docstatus": 0,
+  "doctype": "Branch",
+  "is_group": 0,
+  "modified": "2025-09-10 11:29:24.060800",
+  "name": "Transporte Reyes",
+  "old_parent": "",
+  "parent_branch": null
+ },
+ {
+  "branch_name": "CEDI Ivan",
+  "docstatus": 0,
+  "doctype": "Branch",
+  "is_group": 0,
+  "modified": "2025-08-25 18:44:45.144111",
+  "name": "CEDI Ivan",
+  "old_parent": "",
+  "parent_branch": null
+ }
+]

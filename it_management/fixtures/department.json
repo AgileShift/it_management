@@ -108,5 +108,25 @@
   "name": "Administracion",
   "old_parent": "Todos los Departamentos",
   "parent_department": "Todos los Departamentos"
+ },
+ {
+  "department_name": "Tesoreria",
+  "docstatus": 0,
+  "doctype": "Department",
+  "is_group": 0,
+  "modified": "2025-09-10 11:19:12.769954",
+  "name": "Tesoreria",
+  "old_parent": "Todos los Departamentos",
+  "parent_department": "Todos los Departamentos"
+ },
+ {
+  "department_name": "Comercial",
+  "docstatus": 0,
+  "doctype": "Department",
+  "is_group": 0,
+  "modified": "2025-09-10 11:35:21.259126",
+  "name": "Comercial",
+  "old_parent": "",
+  "parent_department": null
  }
 ]

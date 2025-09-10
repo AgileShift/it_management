@@ -17,3 +17,4 @@ class Branch(NestedSet):
 		parent_branch: DF.Link | None
 		rgt: DF.Int
 	# end: auto-generated types
+	pass
