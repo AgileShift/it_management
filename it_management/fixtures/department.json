@@ -124,9 +124,9 @@
   "docstatus": 0,
   "doctype": "Department",
   "is_group": 0,
-  "modified": "2025-09-10 11:35:21.259126",
+  "modified": "2025-09-10 13:47:24.041421",
   "name": "Comercial",
-  "old_parent": "",
-  "parent_department": null
+  "old_parent": "Todos los Departamentos",
+  "parent_department": "Todos los Departamentos"
  }
 ]

@@ -40,12 +40,12 @@
   "parent_branch": null
  },
  {
-  "branch_name": "DR CR",
+  "branch_name": "CEDI CR",
   "docstatus": 0,
   "doctype": "Branch",
   "is_group": 0,
   "modified": "2025-09-10 11:27:41.326272",
-  "name": "DR CR",
+  "name": "CEDI CR",
   "old_parent": "",
   "parent_branch": null
  },
