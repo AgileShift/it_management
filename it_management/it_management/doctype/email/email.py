@@ -12,6 +12,7 @@ class Email(Document):
 		from frappe.types import DF
 
 		email: DF.Data
+		forward_to: DF.Link | None
 		password: DF.Password | None
 		type: DF.Literal["Email", "Alias", "Forwarder"]
 	# end: auto-generated types

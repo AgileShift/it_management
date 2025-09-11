@@ -11,11 +11,13 @@
  "field_order": [
   "email",
   "password",
+  "forward_to",
   "column_break_glee",
   "type"
  ],
  "fields": [
   {
+   "depends_on": "eval: doc.type == 'Email'",
    "fieldname": "password",
    "fieldtype": "Password",
    "label": "Password"
@@ -43,6 +45,14 @@
    "options": "Email",
    "reqd": 1,
    "unique": 1
+  },
+  {
+   "depends_on": "eval: doc.type == 'Forwarder'",
+   "fieldname": "forward_to",
+   "fieldtype": "Link",
+   "label": "Forward To",
+   "link_filters": "[[\"Email\",\"type\",\"=\",\"Email\"]]",
+   "options": "Email"
   }
  ],
  "grid_page_length": 50,
@@ -56,7 +66,7 @@
    "table_fieldname": "assigned_emails"
   }
  ],
- "modified": "2025-09-10 17:28:08.150696",
+ "modified": "2025-09-11 11:38:23.831486",
  "modified_by": "Administrator",
  "module": "IT Management",
  "name": "Email",
