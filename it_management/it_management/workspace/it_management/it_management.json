@@ -1,0 +1,77 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"UojX29Hvo_\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">IT Management</span>\",\"col\":12}},{\"id\":\"udnGzZ7HNt\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"SUL5dHspYf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Empleados\",\"col\":6}},{\"id\":\"tbW4vLlWww\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Email\",\"col\":3}},{\"id\":\"GdLTc3OP4_\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"QraR1PH0yQ\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"6ptbcvnv7l\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":4}}]",
+ "creation": "2025-09-13 14:09:55.346154",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "share-people",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "IT Management",
+ "links": [
+  {
+   "description": "Settings H2",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Settings",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Ubicaciones",
+   "link_count": 0,
+   "link_to": "Branch",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Areas",
+   "link_count": 0,
+   "link_to": "Department",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-09-13 14:22:35.744566",
+ "modified_by": "Administrator",
+ "module": "IT Management",
+ "name": "IT Management",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Empleados",
+   "link_to": "Employee",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Email",
+   "link_to": "Email",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "IT Management"
+}

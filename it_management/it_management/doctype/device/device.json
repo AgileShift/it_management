@@ -1,0 +1,182 @@
+{
+ "actions": [],
+ "allow_copy": 1,
+ "allow_events_in_timeline": 1,
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "prompt",
+ "creation": "2025-09-13 14:23:40.938148",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "model",
+  "serial_no",
+  "imei",
+  "column_break_okzx",
+  "brand",
+  "column_break_cebg",
+  "type",
+  "section_break_xdwx",
+  "column_break_azom",
+  "software_version",
+  "column_break_hmsp",
+  "cpu",
+  "column_break_umvk",
+  "storage",
+  "ram",
+  "section_break_jtui",
+  "column_break_ilbo",
+  "note",
+  "column_break_znie",
+  "column_break_bbkh",
+  "purchase_date",
+  "warranty_time"
+ ],
+ "fields": [
+  {
+   "bold": 1,
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Type",
+   "options": "\nPC\nLAPTOP\nTABLET\nCELULAR\nIMPRESORA\nMONITOR\nUSB",
+   "reqd": 1,
+   "sort_options": 1
+  },
+  {
+   "fieldname": "column_break_cebg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "model",
+   "fieldtype": "Data",
+   "label": "Modelo"
+  },
+  {
+   "fieldname": "serial_no",
+   "fieldtype": "Data",
+   "label": "Numero de Serie",
+   "reqd": 1
+  },
+  {
+   "fieldname": "imei",
+   "fieldtype": "Data",
+   "label": "IMEI"
+  },
+  {
+   "fieldname": "section_break_xdwx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "Modelo y velocidad",
+   "fieldname": "cpu",
+   "fieldtype": "Data",
+   "label": "CPU"
+  },
+  {
+   "fieldname": "column_break_umvk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "GB",
+   "fieldname": "storage",
+   "fieldtype": "Data",
+   "label": "Almacenamiento"
+  },
+  {
+   "fieldname": "section_break_jtui",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "note",
+   "fieldtype": "Small Text",
+   "label": "Observaciones",
+   "max_height": "100px"
+  },
+  {
+   "fieldname": "column_break_znie",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "purchase_date",
+   "fieldtype": "Date",
+   "label": "Fecha de Adquicision"
+  },
+  {
+   "fieldname": "column_break_bbkh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "warranty_time",
+   "fieldtype": "Data",
+   "hide_seconds": 1,
+   "label": "Tiempo de Garantia"
+  },
+  {
+   "description": "GB",
+   "fieldname": "ram",
+   "fieldtype": "Data",
+   "label": "Memoria RAM"
+  },
+  {
+   "fieldname": "column_break_azom",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_hmsp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_okzx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ilbo",
+   "fieldtype": "Column Break",
+   "max_height": "50px"
+  },
+  {
+   "fieldname": "brand",
+   "fieldtype": "Select",
+   "label": "Marca",
+   "options": "Dell\nLenovo\nSamsung\nHP\nCanon"
+  },
+  {
+   "description": "Nombre y Version",
+   "fieldname": "software_version",
+   "fieldtype": "Data",
+   "label": "Sistema Operativo"
+  }
+ ],
+ "grid_page_length": 50,
+ "links": [],
+ "modified": "2025-09-13 16:03:24.297085",
+ "modified_by": "Administrator",
+ "module": "IT Management",
+ "name": "Device",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1
+}

@@ -4,4 +4,9 @@ frappe.listview_settings['Employee'] = {
 	filters: [
 		['active', '=', 1]
 	],
+
+	formatters: {
+		active: (value) => value ? 'Si' : 'No', // TODO: Complete this
+    }
+
 }
