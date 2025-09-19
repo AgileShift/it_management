@@ -9,9 +9,11 @@ class Employee(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
+		from it_management.it_management.doctype.employee_device.employee_device import EmployeeDevice
 		from it_management.it_management.doctype.employee_email.employee_email import EmployeeEmail
 
 		active: DF.Check
+		assigned_devices: DF.Table[EmployeeDevice]
 		assigned_emails: DF.Table[EmployeeEmail]
 		branch: DF.Link
 		company: DF.Literal["Distribuidora Reyes NIC", "Distribuidora Reyes CR", "Transporte Reyes", "Kings Exports Imports", "Grupo Reyes"]

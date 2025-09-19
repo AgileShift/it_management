@@ -17,6 +17,8 @@
   "brand",
   "column_break_cebg",
   "type",
+  "branch",
+  "department",
   "section_break_xdwx",
   "column_break_azom",
   "software_version",
@@ -51,13 +53,19 @@
    "fieldtype": "Column Break"
   },
   {
+   "bold": 1,
    "fieldname": "model",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Modelo"
   },
   {
+   "bold": 1,
    "fieldname": "serial_no",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Numero de Serie",
    "reqd": 1
   },
@@ -141,19 +149,39 @@
   {
    "fieldname": "brand",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Marca",
-   "options": "Dell\nLenovo\nSamsung\nHP\nCanon"
+   "options": "Dell\nLenovo\nSamsung\nHP\nCanon",
+   "sort_options": 1
   },
   {
    "description": "Nombre y Version",
    "fieldname": "software_version",
    "fieldtype": "Data",
    "label": "Sistema Operativo"
+  },
+  {
+   "bold": 1,
+   "fieldname": "branch",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Branch",
+   "options": "Branch"
+  },
+  {
+   "bold": 1,
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Department",
+   "options": "Department"
   }
  ],
  "grid_page_length": 50,
  "links": [],
- "modified": "2025-09-13 16:03:24.297085",
+ "modified": "2025-09-17 16:24:55.284170",
  "modified_by": "Administrator",
  "module": "IT Management",
  "name": "Device",

@@ -30,7 +30,8 @@
   "section_break_oezd",
   "assigned_emails_column",
   "assigned_emails",
-  "column_break_lpuk"
+  "column_break_lpuk",
+  "assigned_devices"
  ],
  "fields": [
   {
@@ -171,12 +172,18 @@
   },
   {
    "fieldname": "column_break_lpuk",
-   "fieldtype": "Column Break",
-   "label": "SIMs"
+   "fieldtype": "Column Break"
   },
   {
    "fieldname": "assigned_emails_column",
    "fieldtype": "Column Break"
+  },
+  {
+   "bold": 1,
+   "fieldname": "assigned_devices",
+   "fieldtype": "Table",
+   "label": "Devices",
+   "options": "Employee Device"
   }
  ],
  "grid_page_length": 50,
@@ -187,7 +194,7 @@
    "link_fieldname": "reports_to"
   }
  ],
- "modified": "2025-09-11 08:22:54.014395",
+ "modified": "2025-09-19 11:17:26.713560",
  "modified_by": "Administrator",
  "module": "IT Management",
  "name": "Employee",

@@ -1,7 +1,3 @@
-# Copyright (c) 2025, Agile Shift I/O and contributors
-# For license information, please see license.txt
-
-# import frappe
 from frappe.model.document import Document
 
 
@@ -14,8 +10,10 @@ class Device(Document):
 	if TYPE_CHECKING:
 		from frappe.types import DF
 
+		branch: DF.Link | None
 		brand: DF.Literal["Dell", "Lenovo", "Samsung", "HP", "Canon"]
 		cpu: DF.Data | None
+		department: DF.Link | None
 		imei: DF.Data | None
 		model: DF.Data | None
 		note: DF.SmallText | None
