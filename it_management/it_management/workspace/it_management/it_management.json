@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"UojX29Hvo_\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">IT Management</span>\",\"col\":12}},{\"id\":\"udnGzZ7HNt\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"SUL5dHspYf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Empleados\",\"col\":6}},{\"id\":\"tbW4vLlWww\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Email\",\"col\":3}},{\"id\":\"GdLTc3OP4_\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"QraR1PH0yQ\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"6ptbcvnv7l\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":4}}]",
+ "content": "[{\"id\":\"UojX29Hvo_\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">IT Management</span>\",\"col\":12}},{\"id\":\"udnGzZ7HNt\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"SUL5dHspYf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Empleados\",\"col\":6}},{\"id\":\"tbW4vLlWww\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Emails\",\"col\":3}},{\"id\":\"XmyUy8Nx6H\",\"type\":\"spacer\",\"data\":{\"col\":6}},{\"id\":\"5VZg3luXwo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dispositivos\",\"col\":3}},{\"id\":\"GdLTc3OP4_\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"QraR1PH0yQ\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"6ptbcvnv7l\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":4}}]",
  "creation": "2025-09-13 14:09:55.346154",
  "custom_blocks": [],
  "docstatus": 0,
@@ -44,7 +44,7 @@
    "type": "Link"
   }
  ],
- "modified": "2025-09-13 14:22:35.744566",
+ "modified": "2025-09-19 11:25:53.838767",
  "modified_by": "Administrator",
  "module": "IT Management",
  "name": "IT Management",
@@ -59,16 +59,24 @@
   {
    "color": "Grey",
    "doc_view": "List",
-   "label": "Empleados",
-   "link_to": "Employee",
+   "label": "Emails",
+   "link_to": "Email",
    "stats_filter": "[]",
    "type": "DocType"
   },
   {
    "color": "Grey",
    "doc_view": "List",
-   "label": "Email",
-   "link_to": "Email",
+   "label": "Empleados",
+   "link_to": "Employee",
+   "stats_filter": "[[\"Employee\",\"active\",\"=\",1,false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Dispositivos",
+   "link_to": "Device",
    "stats_filter": "[]",
    "type": "DocType"
   }
