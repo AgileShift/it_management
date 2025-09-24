@@ -4,7 +4,7 @@
  "allow_events_in_timeline": 1,
  "allow_import": 1,
  "allow_rename": 1,
- "autoname": "prompt",
+ "autoname": "hash",
  "creation": "2025-09-13 14:23:40.938148",
  "default_view": "List",
  "doctype": "DocType",
@@ -181,11 +181,11 @@
  ],
  "grid_page_length": 50,
  "links": [],
- "modified": "2025-09-17 16:24:55.284170",
+ "modified": "2025-09-24 10:36:24.819489",
  "modified_by": "Administrator",
  "module": "IT Management",
  "name": "Device",
- "naming_rule": "Set by user",
+ "naming_rule": "Random",
  "owner": "Administrator",
  "permissions": [
   {
@@ -202,9 +202,12 @@
   }
  ],
  "row_format": "Dynamic",
+ "search_fields": "model,imei,serial_no,brand",
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
+ "title_field": "model",
  "track_changes": 1,
  "track_seen": 1
 }
