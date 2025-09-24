@@ -180,8 +180,17 @@
   }
  ],
  "grid_page_length": 50,
- "links": [],
- "modified": "2025-09-24 10:36:24.819489",
+ "links": [
+  {
+   "group": "People",
+   "is_child_table": 1,
+   "link_doctype": "Employee Device",
+   "link_fieldname": "device",
+   "parent_doctype": "Employee",
+   "table_fieldname": "assigned_devices"
+  }
+ ],
+ "modified": "2025-09-24 10:57:46.241224",
  "modified_by": "Administrator",
  "module": "IT Management",
  "name": "Device",

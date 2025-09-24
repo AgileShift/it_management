@@ -14,6 +14,7 @@ class EmployeeDevice(Document):
 		parent: DF.Data
 		parentfield: DF.Data
 		parenttype: DF.Data
+		serial_no: DF.ReadOnly | None
 		type: DF.ReadOnly | None
 	# end: auto-generated types
 	pass
