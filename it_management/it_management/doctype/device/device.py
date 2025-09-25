@@ -12,6 +12,8 @@ class Device(Document):
 
 		branch: DF.Link | None
 		brand: DF.Literal["Dell", "Lenovo", "Samsung", "HP", "Canon"]
+		company: DF.Literal["", "Distribuidora Reyes NIC", "Distribuidora Reyes CR", "Transporte Reyes", "Kings Exports Imports", "Grupo Reyes"]
+		cost: DF.Currency
 		cpu: DF.Data | None
 		department: DF.Link | None
 		imei: DF.Data | None
@@ -22,6 +24,7 @@ class Device(Document):
 		serial_no: DF.Data
 		software_version: DF.Data | None
 		storage: DF.Data | None
+		supplier: DF.Data | None
 		type: DF.Literal["", "PC", "LAPTOP", "TABLET", "CELULAR", "IMPRESORA", "MONITOR", "USB"]
 		warranty_time: DF.Data | None
 	# end: auto-generated types

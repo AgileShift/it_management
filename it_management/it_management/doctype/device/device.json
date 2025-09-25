@@ -10,13 +10,15 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "datos_generales_section",
   "model",
   "serial_no",
   "imei",
   "column_break_okzx",
   "brand",
-  "column_break_cebg",
   "type",
+  "column_break_cebg",
+  "company",
   "branch",
   "department",
   "section_break_xdwx",
@@ -31,7 +33,9 @@
   "column_break_ilbo",
   "note",
   "column_break_znie",
+  "cost",
   "column_break_bbkh",
+  "supplier",
   "purchase_date",
   "warranty_time"
  ],
@@ -76,7 +80,8 @@
   },
   {
    "fieldname": "section_break_xdwx",
-   "fieldtype": "Section Break"
+   "fieldtype": "Section Break",
+   "label": "Datos Tecnicos"
   },
   {
    "description": "Modelo y velocidad",
@@ -96,7 +101,8 @@
   },
   {
    "fieldname": "section_break_jtui",
-   "fieldtype": "Section Break"
+   "fieldtype": "Section Break",
+   "label": "Datos Contables"
   },
   {
    "fieldname": "note",
@@ -118,6 +124,7 @@
    "fieldtype": "Column Break"
   },
   {
+   "bold": 1,
    "fieldname": "warranty_time",
    "fieldtype": "Data",
    "hide_seconds": 1,
@@ -177,6 +184,32 @@
    "in_standard_filter": 1,
    "label": "Department",
    "options": "Department"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Select",
+   "label": "Company",
+   "options": "\nDistribuidora Reyes NIC\nDistribuidora Reyes CR\nTransporte Reyes\nKings Exports Imports\nGrupo Reyes",
+   "reqd": 1
+  },
+  {
+   "fieldname": "datos_generales_section",
+   "fieldtype": "Section Break",
+   "label": "Datos Generales"
+  },
+  {
+   "bold": 1,
+   "default": "0.00",
+   "fieldname": "cost",
+   "fieldtype": "Currency",
+   "label": "Costo",
+   "non_negative": 1,
+   "precision": "2"
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Data",
+   "label": "Proveedor"
   }
  ],
  "grid_page_length": 50,
@@ -190,7 +223,7 @@
    "table_fieldname": "assigned_devices"
   }
  ],
- "modified": "2025-09-24 10:57:46.241224",
+ "modified": "2025-09-25 11:11:23.239261",
  "modified_by": "Administrator",
  "module": "IT Management",
  "name": "Device",
