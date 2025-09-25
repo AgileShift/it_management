@@ -186,8 +186,11 @@
    "options": "Department"
   },
   {
+   "bold": 1,
    "fieldname": "company",
    "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Company",
    "options": "\nDistribuidora Reyes NIC\nDistribuidora Reyes CR\nTransporte Reyes\nKings Exports Imports\nGrupo Reyes",
    "reqd": 1
@@ -223,7 +226,7 @@
    "table_fieldname": "assigned_devices"
   }
  ],
- "modified": "2025-09-25 11:11:23.239261",
+ "modified": "2025-09-25 11:13:42.199010",
  "modified_by": "Administrator",
  "module": "IT Management",
  "name": "Device",
