@@ -11,10 +11,12 @@ class Employee(Document):
 		from frappe.types import DF
 		from it_management.it_management.doctype.employee_device.employee_device import EmployeeDevice
 		from it_management.it_management.doctype.employee_email.employee_email import EmployeeEmail
+		from it_management.it_management.doctype.employee_sim.employee_sim import EmployeeSIM
 
 		active: DF.Check
 		assigned_devices: DF.Table[EmployeeDevice]
 		assigned_emails: DF.Table[EmployeeEmail]
+		assigned_sims: DF.Table[EmployeeSIM]
 		branch: DF.Link
 		company: DF.Literal["Distribuidora Reyes NIC", "Distribuidora Reyes CR", "Transporte Reyes", "Kings Exports Imports", "Grupo Reyes"]
 		department: DF.Link

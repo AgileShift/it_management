@@ -1,0 +1,62 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-09-29 08:42:23.598419",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sim",
+  "data_plan",
+  "call",
+  "data"
+ ],
+ "fields": [
+  {
+   "fieldname": "sim",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "SIM",
+   "options": "SIM",
+   "reqd": 1
+  },
+  {
+   "bold": 1,
+   "fetch_from": "sim.data_plan",
+   "fieldname": "data_plan",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "label": "Plan de Datos"
+  },
+  {
+   "bold": 1,
+   "fetch_from": "sim.call",
+   "fieldname": "call",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "label": "Minutos"
+  },
+  {
+   "bold": 1,
+   "fetch_from": "sim.data",
+   "fieldname": "data",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "label": "Internet"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-09-29 08:44:52.953670",
+ "modified_by": "Administrator",
+ "module": "IT Management",
+ "name": "Employee SIM",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
