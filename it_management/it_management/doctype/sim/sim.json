@@ -122,8 +122,17 @@
   }
  ],
  "grid_page_length": 50,
- "links": [],
- "modified": "2025-09-29 08:37:46.989952",
+ "links": [
+  {
+   "group": "People",
+   "is_child_table": 1,
+   "link_doctype": "Employee SIM",
+   "link_fieldname": "sim",
+   "parent_doctype": "Employee",
+   "table_fieldname": "assigned_sims"
+  }
+ ],
+ "modified": "2025-09-29 09:02:45.786123",
  "modified_by": "Administrator",
  "module": "IT Management",
  "name": "SIM",
