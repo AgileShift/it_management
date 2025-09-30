@@ -18,6 +18,6 @@ class SIM(Document):
 		sim: DF.Data
 		sms: DF.Data | None
 		social_network: DF.Data | None
-		vpn: DF.Check
+		vpn: DF.Data | None
 	# end: auto-generated types
 	pass
