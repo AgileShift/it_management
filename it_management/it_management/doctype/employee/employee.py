@@ -1,4 +1,6 @@
+import frappe
 from frappe.model.document import Document
+from it_management.it_management.doctype.employee_sim.employee_sim import EmployeeSIM
 
 
 class Employee(Document):
@@ -20,7 +22,7 @@ class Employee(Document):
 		branch: DF.Link
 		company: DF.Literal["Distribuidora Reyes NIC", "Distribuidora Reyes CR", "Transporte Reyes", "Kings Exports Imports", "Grupo Reyes"]
 		department: DF.Link
-		designation: DF.Literal["Abogado", "Analista", "Auditor", "Auxiliar de Bodega", "Cajero", "Cajero\\Liquidador", "Cartera y Cobro", "Compras", "Contador", "Contador Rotativo", "Ejecutivo de Venta", "Importaciones", "Jefe de Area", "Liquidador", "Reponsable de Modulo", "Responsable de Bodega", "RRHH", "Soporte Tecnico", "Supervisor", "Supervisor de CEDI", "Supervisor de Modulo", "Facturacion", "Taller"]
+		designation: DF.Literal["Abogado", "Analista", "Auditor", "Auxiliar de Bodega", "Cajero", "Cajero\\Liquidador", "Cartera y Cobro", "Compras", "Contador", "Contador Rotativo", "Ejecutivo de Venta", "Importaciones", "Jefe de Area", "Liquidador", "Reponsable de Modulo", "Responsable de Bodega", "RRHH", "Soporte Tecnico", "Supervisor", "Supervisor de CEDI", "Supervisor de Modulo", "Facturacion", "Taller", "Diseno Grafico"]
 		first_name: DF.Data
 		gender: DF.Link | None
 		last_name: DF.Data
@@ -29,4 +31,10 @@ class Employee(Document):
 		personal_phone: DF.Phone | None
 		reports_to: DF.Link | None
 	# end: auto-generated types
-	pass
+
+	def validate(self):
+		employee_sims = frappe.db.get_list("EmployeeSIM")
+
+		for device in self.assigned_sims:
+
+			pass
