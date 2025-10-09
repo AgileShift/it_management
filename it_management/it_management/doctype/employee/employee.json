@@ -131,7 +131,7 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Cargo",
-   "options": "Abogado\nAnalista\nAuditor\nAuxiliar de Bodega\nCajero\nCajero\\Liquidador\nCartera y Cobro\nCompras\nContador\nContador Rotativo\nEjecutivo de Venta\nImportaciones\nJefe de Area\nLiquidador\nReponsable de Modulo\nResponsable de Bodega\nRRHH\nSoporte Tecnico\nSupervisor\nSupervisor de CEDI\nSupervisor de Modulo\nFacturacion\nTaller\nDiseno Grafico",
+   "options": "Abogado\nAnalista\nAsistente Gerencia\nAuditor\nAuxiliar de Bodega\nCajero\nCajero\\Liquidador\nCartera y Cobro\nCompras\nContador\nContador Rotativo\nEjecutivo de Venta\nImportaciones\nJefe de Area\nLiquidador\nReponsable de Modulo\nResponsable de Bodega\nRRHH\nSoporte Tecnico\nSupervisor\nSupervisor de Ruta\nSupervisor de CEDI\nSupervisor de Modulo\nCaja y Facturacion\nCajero\nFacturador\nVendedor\nVendedor en Ruta\nMecanico Frio\nMecanico General\nMecanico Electrico\nDiseno Grafico",
    "reqd": 1,
    "sort_options": 1
   },
@@ -214,7 +214,7 @@
    "link_fieldname": "reports_to"
   }
  ],
- "modified": "2025-10-03 19:12:37.399504",
+ "modified": "2025-10-09 14:39:51.970402",
  "modified_by": "Administrator",
  "module": "IT Management",
  "name": "Employee",
