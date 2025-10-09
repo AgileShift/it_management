@@ -20,13 +20,13 @@ class Employee(Document):
 		branch: DF.Link
 		company: DF.Literal["Distribuidora Reyes NIC", "Distribuidora Reyes CR", "Transporte Reyes", "Kings Exports Imports", "Grupo Reyes"]
 		department: DF.Link
-		designation: DF.Literal["Abogado", "Analista", "Asistente Gerencia", "Auditor", "Auxiliar de Bodega", "Cajero", "Cajero y Facturador", "Cajero\\Liquidador", "Cartera y Cobro", "Vendedor", "Vendedor en Ruta", "Compras", "Contador", "Contador Rotativo", "Ejecutivo de Venta", "Importaciones", "Jefe de Area", "Liquidador", "Reponsable de Modulo", "Responsable de Bodega", "RRHH", "Soporte Tecnico", "Supervisor", "Supervisor de Ruta", "Supervisor de CEDI", "Supervisor de Modulo", "Mecanico Frio", "Mecanico General", "Mecanico Electrico", "Diseno Grafico"]
+		designation: DF.Literal["Abogado", "Analista", "Asistente Gerencia", "Auditor", "Asistente de Area", "Auxiliar de Bodega", "Cajero", "Facturador", "Cajero y Facturador", "Cajero\\Liquidador", "Cartera y Cobro", "Vendedor", "Vendedor en Ruta", "Compras", "Contador", "Contador Rotativo", "Ejecutivo de Venta", "Importaciones", "Jefe de Area", "Liquidador", "Reponsable de Modulo", "Responsable de Bodega", "RRHH", "Soporte Tecnico", "Supervisor", "Supervisor de Ruta", "Supervisor de CEDI", "Supervisor de Modulo", "Mecanico Frio", "Mecanico General", "Mecanico Electrico", "Diseno Grafico"]
 		first_name: DF.Data
 		gender: DF.Link | None
 		last_name: DF.Data
 		middle_name: DF.Data | None
 		personal_email: DF.Data | None
-		personal_phone: DF.Phone | None
+		personal_phone: DF.Data | None
 		reports_to: DF.Link | None
 	# end: auto-generated types
 	pass
