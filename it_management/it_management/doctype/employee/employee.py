@@ -1,3 +1,5 @@
+import vobject
+
 from frappe.model.document import Document
 
 
@@ -24,9 +26,30 @@ class Employee(Document):
 		first_name: DF.Data
 		gender: DF.Link | None
 		last_name: DF.Data
-		middle_name: DF.Data | None
 		personal_email: DF.Data | None
 		personal_phone: DF.Data | None
 		reports_to: DF.Link | None
 	# end: auto-generated types
-	pass
+
+	def vcard(self):
+		card = vobject.vCard()
+		card.add('n')
+		card.n.value = vobject.vcard.Name(given=self.first_name, family=self.last_name)
+		card.add('fn')
+		card.fn.value = f"{self.first_name} {self.last_name}"
+
+		card.add('title').value = self.designation # Job Title
+		card.add('org').value = [self.company, self.department]
+
+		for employee_email in self.assigned_emails:
+			card_email = card.add('email')
+			card_email.value = employee_email.email
+			card_email.type_param = 'WORK'
+
+		for employee_sim in self.assigned_sims:
+			card_tel = card.add('tel')
+			card_tel.value = employee_sim.sim
+			card_tel.type_param = 'WORK'
+
+		return card.serialize()
+
