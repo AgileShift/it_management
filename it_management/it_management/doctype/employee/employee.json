@@ -12,22 +12,22 @@
  "field_order": [
   "datos_generales_section",
   "first_name",
-  "middle_name",
   "last_name",
+  "column_break_ftdw",
+  "personal_phone",
+  "personal_email",
   "column_break_idxo",
   "gender",
-  "column_break_jtcy",
-  "personal_email",
-  "personal_phone",
+  "column_break_isib",
+  "active",
   "section_break_fdxz",
   "company",
-  "active",
-  "column_break_uhqd",
+  "branch",
+  "column_break_gbzq",
   "department",
   "designation",
+  "column_break_uhqd",
   "reports_to",
-  "column_break_gbzq",
-  "branch",
   "section_break_oezd",
   "assigned_emails_column",
   "assigned_emails",
@@ -41,13 +41,8 @@
    "bold": 1,
    "fieldname": "first_name",
    "fieldtype": "Data",
-   "label": "Primer Nombre",
+   "label": "Nombres",
    "reqd": 1
-  },
-  {
-   "fieldname": "middle_name",
-   "fieldtype": "Data",
-   "label": "Segundo Nombre"
   },
   {
    "bold": 1,
@@ -55,10 +50,6 @@
    "fieldtype": "Data",
    "label": "Apellidos",
    "reqd": 1
-  },
-  {
-   "fieldname": "column_break_jtcy",
-   "fieldtype": "Column Break"
   },
   {
    "fieldname": "column_break_idxo",
@@ -203,6 +194,14 @@
    "fieldname": "datos_generales_section",
    "fieldtype": "Section Break",
    "label": "Datos Generales"
+  },
+  {
+   "fieldname": "column_break_isib",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ftdw",
+   "fieldtype": "Column Break"
   }
  ],
  "grid_page_length": 50,
@@ -213,7 +212,7 @@
    "link_fieldname": "reports_to"
   }
  ],
- "modified": "2025-10-09 17:26:05.551972",
+ "modified": "2025-10-09 20:33:36.998948",
  "modified_by": "Administrator",
  "module": "IT Management",
  "name": "Employee",
@@ -234,7 +233,7 @@
   }
  ],
  "row_format": "Dynamic",
- "search_fields": "first_name,middle_name,last_name,designation,personal_phone",
+ "search_fields": "first_name,last_name,designation,personal_phone",
  "show_name_in_global_search": 1,
  "show_preview_popup": 1,
  "sort_field": "modified",
