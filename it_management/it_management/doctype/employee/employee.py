@@ -41,6 +41,12 @@ class Employee(Document):
 		card.add('title').value = self.designation # Job Title
 		card.add('org').value = [self.company, self.department]
 
+		# TODO: Make this a optional setting
+		if self.personal_phone:
+			card_tel = card.add('tel')
+			card_tel.value = self.personal_phone
+			card_tel.type_param = 'MOBILE'
+
 		for employee_email in self.assigned_emails:
 			card_email = card.add('email')
 			card_email.value = employee_email.email
