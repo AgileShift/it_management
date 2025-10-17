@@ -11,6 +11,7 @@ class SIM(Document):
 		from frappe.types import DF
 
 		call: DF.Data | None
+		company: DF.Literal["", "Distribuidora Reyes NIC", "Distribuidora Reyes CR", "Transporte Reyes", "Kings Exports Imports", "Grupo Reyes"]
 		cost_usd: DF.Currency
 		data: DF.Data | None
 		data_plan: DF.Data | None

@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"UojX29Hvo_\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">IT Management</span>\",\"col\":12}},{\"id\":\"udnGzZ7HNt\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"SUL5dHspYf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Empleados\",\"col\":6}},{\"id\":\"tbW4vLlWww\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Emails\",\"col\":3}},{\"id\":\"XmyUy8Nx6H\",\"type\":\"spacer\",\"data\":{\"col\":6}},{\"id\":\"5VZg3luXwo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dispositivos\",\"col\":3}},{\"id\":\"CN-2gwj2iP\",\"type\":\"spacer\",\"data\":{\"col\":6}},{\"id\":\"7pifesgZIp\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"SIMs\",\"col\":3}},{\"id\":\"GdLTc3OP4_\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"QraR1PH0yQ\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"6ptbcvnv7l\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":4}}]",
+ "content": "[{\"id\":\"UojX29Hvo_\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">IT Management</span>\",\"col\":12}},{\"id\":\"udnGzZ7HNt\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"SUL5dHspYf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee\",\"col\":6}},{\"id\":\"tbW4vLlWww\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Email\",\"col\":3}},{\"id\":\"XmyUy8Nx6H\",\"type\":\"spacer\",\"data\":{\"col\":6}},{\"id\":\"5VZg3luXwo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Devices\",\"col\":3}},{\"id\":\"CN-2gwj2iP\",\"type\":\"spacer\",\"data\":{\"col\":6}},{\"id\":\"7pifesgZIp\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"SIM\",\"col\":3}},{\"id\":\"GdLTc3OP4_\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"QraR1PH0yQ\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"6ptbcvnv7l\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":4}}]",
  "creation": "2025-09-13 14:09:55.346154",
  "custom_blocks": [],
  "docstatus": 0,
@@ -26,7 +26,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Ubicaciones",
+   "label": "Branch",
    "link_count": 0,
    "link_to": "Branch",
    "link_type": "DocType",
@@ -36,7 +36,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Areas",
+   "label": "All Departments",
    "link_count": 0,
    "link_to": "Department",
    "link_type": "DocType",
@@ -44,7 +44,7 @@
    "type": "Link"
   }
  ],
- "modified": "2025-09-29 08:24:58.911559",
+ "modified": "2025-10-17 08:23:43.503136",
  "modified_by": "Administrator",
  "module": "IT Management",
  "name": "IT Management",
@@ -59,15 +59,7 @@
   {
    "color": "Grey",
    "doc_view": "List",
-   "label": "Emails",
-   "link_to": "Email",
-   "stats_filter": "[]",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Empleados",
+   "label": "Employee",
    "link_to": "Employee",
    "stats_filter": "[[\"Employee\",\"active\",\"=\",1,false]]",
    "type": "DocType"
@@ -75,16 +67,24 @@
   {
    "color": "Grey",
    "doc_view": "List",
-   "label": "SIMs",
-   "link_to": "SIM",
+   "label": "Email",
+   "link_to": "Email",
    "stats_filter": "[]",
    "type": "DocType"
   },
   {
    "color": "Grey",
    "doc_view": "List",
-   "label": "Dispositivos",
+   "label": "Devices",
    "link_to": "Device",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "SIM",
+   "link_to": "SIM",
    "stats_filter": "[]",
    "type": "DocType"
   }

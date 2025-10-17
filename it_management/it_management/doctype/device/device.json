@@ -62,7 +62,7 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Modelo"
+   "label": "Model"
   },
   {
    "bold": 1,
@@ -70,7 +70,7 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Numero de Serie",
+   "label": "Serial Number",
    "reqd": 1
   },
   {
@@ -84,7 +84,7 @@
    "label": "Datos Tecnicos"
   },
   {
-   "description": "Modelo y velocidad",
+   "description": "Model and Speed",
    "fieldname": "cpu",
    "fieldtype": "Data",
    "label": "CPU"
@@ -97,7 +97,7 @@
    "description": "GB",
    "fieldname": "storage",
    "fieldtype": "Data",
-   "label": "Almacenamiento"
+   "label": "Storage"
   },
   {
    "fieldname": "section_break_jtui",
@@ -107,7 +107,7 @@
   {
    "fieldname": "note",
    "fieldtype": "Small Text",
-   "label": "Observaciones",
+   "label": "Notes",
    "max_height": "100px"
   },
   {
@@ -117,7 +117,7 @@
   {
    "fieldname": "purchase_date",
    "fieldtype": "Date",
-   "label": "Fecha de Adquicision"
+   "label": "Purchase Date"
   },
   {
    "fieldname": "column_break_bbkh",
@@ -128,13 +128,13 @@
    "fieldname": "warranty_time",
    "fieldtype": "Data",
    "hide_seconds": 1,
-   "label": "Tiempo de Garantia"
+   "label": "Warranty"
   },
   {
    "description": "GB",
    "fieldname": "ram",
    "fieldtype": "Data",
-   "label": "Memoria RAM"
+   "label": "RAM"
   },
   {
    "fieldname": "column_break_azom",
@@ -157,15 +157,15 @@
    "fieldname": "brand",
    "fieldtype": "Select",
    "in_list_view": 1,
-   "label": "Marca",
+   "label": "Brand",
    "options": "Dell\nLenovo\nSamsung\nHP\nCanon",
    "sort_options": 1
   },
   {
-   "description": "Nombre y Version",
+   "description": "Name and Version",
    "fieldname": "software_version",
    "fieldtype": "Data",
-   "label": "Sistema Operativo"
+   "label": "Operating System"
   },
   {
    "bold": 1,
@@ -205,14 +205,14 @@
    "default": "0.00",
    "fieldname": "cost",
    "fieldtype": "Currency",
-   "label": "Costo",
+   "label": "Cost",
    "non_negative": 1,
    "precision": "2"
   },
   {
    "fieldname": "supplier",
    "fieldtype": "Data",
-   "label": "Proveedor"
+   "label": "Supplier"
   }
  ],
  "grid_page_length": 50,
@@ -226,7 +226,7 @@
    "table_fieldname": "assigned_devices"
   }
  ],
- "modified": "2025-09-29 08:30:44.920301",
+ "modified": "2025-10-17 08:20:18.175321",
  "modified_by": "Administrator",
  "module": "IT Management",
  "name": "Device",

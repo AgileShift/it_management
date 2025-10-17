@@ -1,0 +1,742 @@
+# Translations template for IT Management.
+# Copyright (C) 2025 Agile Shift I/O
+# This file is distributed under the same license as the IT Management project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: IT Management VERSION\n"
+"Report-Msgid-Bugs-To: contacto@gruporeal.org\n"
+"POT-Creation-Date: 2025-10-17 08:23-0615\n"
+"PO-Revision-Date: 2025-10-17 08:23-0615\n"
+"Last-Translator: contacto@gruporeal.org\n"
+"Language-Team: contacto@gruporeal.org\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#. Header text in the IT Management Workspace
+#: it_management/it_management/workspace/it_management/it_management.json
+msgid "<span class=\"h4\">IT Management</span>"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Abogado"
+msgstr ""
+
+#. Label of a Check field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Active"
+msgstr ""
+
+#. Option for the 'Type' (Select) field in DocType 'Email'
+#: it_management/it_management/doctype/email/email.json
+msgid "Alias"
+msgstr ""
+
+#. Label of a Link in the IT Management Workspace
+#: it_management/it_management/workspace/it_management/it_management.json
+msgid "All Departments"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Analista"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Asistente Gerencia"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Asistente de Area"
+msgstr ""
+
+#. Label of a Section Break field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Assigned Assets"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Auditor"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Auxiliar de Bodega"
+msgstr ""
+
+#. Label of a Data field in DocType 'SIM'
+#: it_management/it_management/doctype/sim/sim.json
+msgid "Bono Extra de Internet"
+msgstr ""
+
+#. Name of a DocType
+#. Label of a Link field in DocType 'Device'
+#. Label of a Link field in DocType 'Employee'
+#. Label of a Link in the IT Management Workspace
+#: it_management/it_management/doctype/branch/branch.json
+#: it_management/it_management/doctype/device/device.json
+#: it_management/it_management/doctype/employee/employee.json
+#: it_management/it_management/workspace/it_management/it_management.json
+msgid "Branch"
+msgstr ""
+
+#. Label of a Select field in DocType 'Device'
+#: it_management/it_management/doctype/device/device.json
+msgid "Brand"
+msgstr ""
+
+#. Option for the 'Type' (Select) field in DocType 'Device'
+#: it_management/it_management/doctype/device/device.json
+msgid "CELULAR"
+msgstr ""
+
+#. Label of a Data field in DocType 'Device'
+#: it_management/it_management/doctype/device/device.json
+msgid "CPU"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Cajero"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Cajero y Facturador"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Cajero\\Liquidador"
+msgstr ""
+
+#. Option for the 'Brand' (Select) field in DocType 'Device'
+#: it_management/it_management/doctype/device/device.json
+msgid "Canon"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Cartera y Cobro"
+msgstr ""
+
+#. Label of a Select field in DocType 'Device'
+#. Label of a Select field in DocType 'Employee'
+#. Label of a Select field in DocType 'SIM'
+#: it_management/it_management/doctype/device/device.json
+#: it_management/it_management/doctype/employee/employee.json
+#: it_management/it_management/doctype/sim/sim.json
+msgid "Company"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Compras"
+msgstr ""
+
+#. Label of a Section Break field in DocType 'SIM'
+#: it_management/it_management/doctype/sim/sim.json
+msgid "Configuracion del Plan"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Contador"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Contador Rotativo"
+msgstr ""
+
+#. Label of a Currency field in DocType 'Device'
+#. Label of a Currency field in DocType 'SIM'
+#: it_management/it_management/doctype/device/device.json
+#: it_management/it_management/doctype/sim/sim.json
+msgid "Cost"
+msgstr ""
+
+#. Label of a Data field in DocType 'SIM'
+#: it_management/it_management/doctype/sim/sim.json
+msgid "Data Plan"
+msgstr ""
+
+#. Label of a Section Break field in DocType 'Device'
+#: it_management/it_management/doctype/device/device.json
+msgid "Datos Contables"
+msgstr ""
+
+#. Label of a Section Break field in DocType 'Device'
+#. Label of a Section Break field in DocType 'Employee'
+#. Label of a Section Break field in DocType 'SIM'
+#: it_management/it_management/doctype/device/device.json
+#: it_management/it_management/doctype/employee/employee.json
+#: it_management/it_management/doctype/sim/sim.json
+msgid "Datos Generales"
+msgstr ""
+
+#. Label of a Section Break field in DocType 'Device'
+#: it_management/it_management/doctype/device/device.json
+msgid "Datos Tecnicos"
+msgstr ""
+
+#. Option for the 'Brand' (Select) field in DocType 'Device'
+#: it_management/it_management/doctype/device/device.json
+msgid "Dell"
+msgstr ""
+
+#. Name of a DocType
+#. Label of a Data field in DocType 'Department'
+#. Label of a Link field in DocType 'Device'
+#. Label of a Link field in DocType 'Employee'
+#: it_management/it_management/doctype/department/department.json
+#: it_management/it_management/doctype/device/device.json
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Department"
+msgstr ""
+
+#. Label of a Section Break field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Detalles de Empresa"
+msgstr ""
+
+#. Name of a DocType
+#. Label of a Link field in DocType 'Employee Device'
+#: it_management/it_management/doctype/device/device.json
+#: it_management/it_management/doctype/employee_device/employee_device.json
+msgid "Device"
+msgstr ""
+
+#. Label of a Table field in DocType 'Employee'
+#. Label of a shortcut in the IT Management Workspace
+#: it_management/it_management/doctype/employee/employee.json
+#: it_management/it_management/workspace/it_management/it_management.json
+msgid "Devices"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Diseno Grafico"
+msgstr ""
+
+#. Option for the 'Company' (Select) field in DocType 'Device'
+#. Option for the 'Company' (Select) field in DocType 'Employee'
+#. Option for the 'Company' (Select) field in DocType 'SIM'
+#: it_management/it_management/doctype/device/device.json
+#: it_management/it_management/doctype/employee/employee.json
+#: it_management/it_management/doctype/sim/sim.json
+msgid "Distribuidora Reyes CR"
+msgstr ""
+
+#. Option for the 'Company' (Select) field in DocType 'Device'
+#. Option for the 'Company' (Select) field in DocType 'Employee'
+#. Option for the 'Company' (Select) field in DocType 'SIM'
+#: it_management/it_management/doctype/device/device.json
+#: it_management/it_management/doctype/employee/employee.json
+#: it_management/it_management/doctype/sim/sim.json
+msgid "Distribuidora Reyes NIC"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Ejecutivo de Venta"
+msgstr ""
+
+#. Name of a DocType
+#. Option for the 'Type' (Select) field in DocType 'Email'
+#. Label of a shortcut in the IT Management Workspace
+#: it_management/it_management/doctype/email/email.json
+#: it_management/it_management/workspace/it_management/it_management.json
+msgid "Email"
+msgstr ""
+
+#. Label of a Link field in DocType 'Employee Email'
+#: it_management/it_management/doctype/employee_email/employee_email.json
+msgid "Email Account"
+msgstr ""
+
+#. Label of a Data field in DocType 'Email'
+#: it_management/it_management/doctype/email/email.json
+msgid "Email Address"
+msgstr ""
+
+#. Label of a Table field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Emails"
+msgstr ""
+
+#. Linked DocType in Branch's connections
+#. Linked DocType in Department's connections
+#. Name of a DocType
+#. Linked DocType in Employee's connections
+#. Label of a shortcut in the IT Management Workspace
+#: it_management/it_management/doctype/branch/branch.json
+#: it_management/it_management/doctype/department/department.json
+#: it_management/it_management/doctype/employee/employee.json
+#: it_management/it_management/workspace/it_management/it_management.json
+msgid "Employee"
+msgstr ""
+
+#. Linked DocType in Device's connections
+#. Name of a DocType
+#: it_management/it_management/doctype/device/device.json
+#: it_management/it_management/doctype/employee_device/employee_device.json
+msgid "Employee Device"
+msgstr ""
+
+#. Linked DocType in Email's connections
+#. Name of a DocType
+#: it_management/it_management/doctype/email/email.json
+#: it_management/it_management/doctype/employee_email/employee_email.json
+msgid "Employee Email"
+msgstr ""
+
+#. Name of a DocType
+#. Linked DocType in SIM's connections
+#: it_management/it_management/doctype/employee_sim/employee_sim.json
+#: it_management/it_management/doctype/sim/sim.json
+msgid "Employee SIM"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Facturador"
+msgstr ""
+
+#. Label of a Data field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "First Name"
+msgstr ""
+
+#. Label of a Link field in DocType 'Email'
+#: it_management/it_management/doctype/email/email.json
+msgid "Forward To"
+msgstr ""
+
+#. Option for the 'Type' (Select) field in DocType 'Email'
+#: it_management/it_management/doctype/email/email.json
+msgid "Forwarder"
+msgstr ""
+
+#. Description of the 'Storage' (Data) field in DocType 'Device'
+#. Description of the 'RAM' (Data) field in DocType 'Device'
+#: it_management/it_management/doctype/device/device.json
+msgid "GB"
+msgstr ""
+
+#. Label of a Link field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Gender"
+msgstr ""
+
+#: it_management/it_management/doctype/email/email.js:4
+msgid "Get Password"
+msgstr ""
+
+#. Option for the 'Company' (Select) field in DocType 'Device'
+#. Option for the 'Company' (Select) field in DocType 'Employee'
+#. Option for the 'Company' (Select) field in DocType 'SIM'
+#: it_management/it_management/doctype/device/device.json
+#: it_management/it_management/doctype/employee/employee.json
+#: it_management/it_management/doctype/sim/sim.json
+msgid "Grupo Reyes"
+msgstr ""
+
+#. Option for the 'Brand' (Select) field in DocType 'Device'
+#: it_management/it_management/doctype/device/device.json
+msgid "HP"
+msgstr ""
+
+#. Label of a Data field in DocType 'Device'
+#: it_management/it_management/doctype/device/device.json
+msgid "IMEI"
+msgstr ""
+
+#. Option for the 'Type' (Select) field in DocType 'Device'
+#: it_management/it_management/doctype/device/device.json
+msgid "IMPRESORA"
+msgstr ""
+
+#. Name of a Workspace
+#: it_management/it_management/workspace/it_management/it_management.json
+msgid "IT Management"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Importaciones"
+msgstr ""
+
+#. Label of a Read Only field in DocType 'Employee SIM'
+#. Label of a Data field in DocType 'SIM'
+#: it_management/it_management/doctype/employee_sim/employee_sim.json
+#: it_management/it_management/doctype/sim/sim.json
+msgid "Internet"
+msgstr ""
+
+#. Label of a Check field in DocType 'Branch'
+#. Label of a Check field in DocType 'Department'
+#: it_management/it_management/doctype/branch/branch.json
+#: it_management/it_management/doctype/department/department.json
+msgid "Is Group"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Jefe de Area"
+msgstr ""
+
+#. Option for the 'Company' (Select) field in DocType 'Device'
+#. Option for the 'Company' (Select) field in DocType 'Employee'
+#. Option for the 'Company' (Select) field in DocType 'SIM'
+#: it_management/it_management/doctype/device/device.json
+#: it_management/it_management/doctype/employee/employee.json
+#: it_management/it_management/doctype/sim/sim.json
+msgid "Kings Exports Imports"
+msgstr ""
+
+#. Option for the 'Type' (Select) field in DocType 'Device'
+#: it_management/it_management/doctype/device/device.json
+msgid "LAPTOP"
+msgstr ""
+
+#. Label of a Data field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Last Name"
+msgstr ""
+
+#. Label of a Int field in DocType 'Branch'
+#. Label of a Int field in DocType 'Department'
+#: it_management/it_management/doctype/branch/branch.json
+#: it_management/it_management/doctype/department/department.json
+msgid "Left"
+msgstr ""
+
+#. Option for the 'Brand' (Select) field in DocType 'Device'
+#: it_management/it_management/doctype/device/device.json
+msgid "Lenovo"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Liquidador"
+msgstr ""
+
+#. Option for the 'Type' (Select) field in DocType 'Device'
+#: it_management/it_management/doctype/device/device.json
+msgid "MONITOR"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Mecanico Electrico"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Mecanico Frio"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Mecanico General"
+msgstr ""
+
+#. Label of a Data field in DocType 'SIM'
+#: it_management/it_management/doctype/sim/sim.json
+msgid "Minutes"
+msgstr ""
+
+#. Label of a Read Only field in DocType 'Employee SIM'
+#: it_management/it_management/doctype/employee_sim/employee_sim.json
+msgid "Minutos"
+msgstr ""
+
+#. Label of a Data field in DocType 'Device'
+#: it_management/it_management/doctype/device/device.json
+msgid "Model"
+msgstr ""
+
+#. Description of the 'CPU' (Data) field in DocType 'Device'
+#: it_management/it_management/doctype/device/device.json
+msgid "Model and Speed"
+msgstr ""
+
+#. Description of the 'Operating System' (Data) field in DocType 'Device'
+#: it_management/it_management/doctype/device/device.json
+msgid "Name and Version"
+msgstr ""
+
+#. Label of a Small Text field in DocType 'Device'
+#: it_management/it_management/doctype/device/device.json
+msgid "Notes"
+msgstr ""
+
+#. Label of a Read Only field in DocType 'Employee Device'
+#: it_management/it_management/doctype/employee_device/employee_device.json
+msgid "Numero de Serie"
+msgstr ""
+
+#. Label of a Link field in DocType 'Branch'
+#. Label of a Link field in DocType 'Department'
+#: it_management/it_management/doctype/branch/branch.json
+#: it_management/it_management/doctype/department/department.json
+msgid "Old Parent"
+msgstr ""
+
+#. Label of a Data field in DocType 'Device'
+#: it_management/it_management/doctype/device/device.json
+msgid "Operating System"
+msgstr ""
+
+#. Option for the 'Type' (Select) field in DocType 'Device'
+#: it_management/it_management/doctype/device/device.json
+msgid "PC"
+msgstr ""
+
+#. Label of a Link field in DocType 'Branch'
+#: it_management/it_management/doctype/branch/branch.json
+msgid "Parent Branch"
+msgstr ""
+
+#. Label of a Link field in DocType 'Department'
+#: it_management/it_management/doctype/department/department.json
+msgid "Parent Department"
+msgstr ""
+
+#. Label of a Password field in DocType 'Email'
+#: it_management/it_management/doctype/email/email.json
+msgid "Password"
+msgstr ""
+
+#. Group in Branch's connections
+#. Group in Department's connections
+#. Group in Device's connections
+#. Group in Email's connections
+#. Group in SIM's connections
+#: it_management/it_management/doctype/branch/branch.json
+#: it_management/it_management/doctype/department/department.json
+#: it_management/it_management/doctype/device/device.json
+#: it_management/it_management/doctype/email/email.json
+#: it_management/it_management/doctype/sim/sim.json
+msgid "People"
+msgstr ""
+
+#. Label of a Data field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Personal Email"
+msgstr ""
+
+#. Label of a Data field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Phone"
+msgstr ""
+
+#. Label of a Read Only field in DocType 'Employee SIM'
+#: it_management/it_management/doctype/employee_sim/employee_sim.json
+msgid "Plan de Datos"
+msgstr ""
+
+#. Label of a Date field in DocType 'Device'
+#: it_management/it_management/doctype/device/device.json
+msgid "Purchase Date"
+msgstr ""
+
+#. Label of a Data field in DocType 'Device'
+#: it_management/it_management/doctype/device/device.json
+msgid "RAM"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "RRHH"
+msgstr ""
+
+#. Label of a Data field in DocType 'SIM'
+#: it_management/it_management/doctype/sim/sim.json
+msgid "Redes Sociales"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Reponsable de Modulo"
+msgstr ""
+
+#. Label of a Link field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Reports To"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Responsable de Bodega"
+msgstr ""
+
+#. Label of a Int field in DocType 'Branch'
+#. Label of a Int field in DocType 'Department'
+#: it_management/it_management/doctype/branch/branch.json
+#: it_management/it_management/doctype/department/department.json
+msgid "Right"
+msgstr ""
+
+#. Label of a Select field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Role"
+msgstr ""
+
+#. Label of a Link field in DocType 'Employee SIM'
+#. Name of a DocType
+#. Label of a Data field in DocType 'SIM'
+#. Label of a shortcut in the IT Management Workspace
+#: it_management/it_management/doctype/employee_sim/employee_sim.json
+#: it_management/it_management/doctype/sim/sim.json
+#: it_management/it_management/workspace/it_management/it_management.json
+msgid "SIM"
+msgstr ""
+
+#. Label of a Table field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "SIMs"
+msgstr ""
+
+#. Label of a Data field in DocType 'SIM'
+#: it_management/it_management/doctype/sim/sim.json
+msgid "SMS"
+msgstr ""
+
+#. Option for the 'Brand' (Select) field in DocType 'Device'
+#: it_management/it_management/doctype/device/device.json
+msgid "Samsung"
+msgstr ""
+
+#. Label of a Data field in DocType 'Device'
+#: it_management/it_management/doctype/device/device.json
+msgid "Serial Number"
+msgstr ""
+
+#. Label of a Card Break in the IT Management Workspace
+#: it_management/it_management/workspace/it_management/it_management.json
+msgid "Settings"
+msgstr ""
+
+#. Description of a Card Break in the IT Management Workspace
+#: it_management/it_management/workspace/it_management/it_management.json
+msgid "Settings H2"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Soporte Tecnico"
+msgstr ""
+
+#. Label of a Data field in DocType 'Device'
+#: it_management/it_management/doctype/device/device.json
+msgid "Storage"
+msgstr ""
+
+#. Group in Employee's connections
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Subordinates"
+msgstr ""
+
+#. Label of a Data field in DocType 'Branch'
+#: it_management/it_management/doctype/branch/branch.json
+msgid "Sucursal"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Supervisor"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Supervisor de CEDI"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Supervisor de Modulo"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Supervisor de Ruta"
+msgstr ""
+
+#. Label of a Data field in DocType 'Device'
+#: it_management/it_management/doctype/device/device.json
+msgid "Supplier"
+msgstr ""
+
+#. Name of a role
+#: it_management/it_management/doctype/branch/branch.json
+#: it_management/it_management/doctype/department/department.json
+#: it_management/it_management/doctype/device/device.json
+#: it_management/it_management/doctype/email/email.json
+#: it_management/it_management/doctype/employee/employee.json
+#: it_management/it_management/doctype/sim/sim.json
+msgid "System Manager"
+msgstr ""
+
+#. Option for the 'Type' (Select) field in DocType 'Device'
+#: it_management/it_management/doctype/device/device.json
+msgid "TABLET"
+msgstr ""
+
+#. Option for the 'Company' (Select) field in DocType 'Device'
+#. Option for the 'Company' (Select) field in DocType 'Employee'
+#. Option for the 'Company' (Select) field in DocType 'SIM'
+#: it_management/it_management/doctype/device/device.json
+#: it_management/it_management/doctype/employee/employee.json
+#: it_management/it_management/doctype/sim/sim.json
+msgid "Transporte Reyes"
+msgstr ""
+
+#. Label of a Select field in DocType 'Device'
+#. Label of a Select field in DocType 'Email'
+#. Label of a Read Only field in DocType 'Employee Device'
+#. Label of a Read Only field in DocType 'Employee Email'
+#: it_management/it_management/doctype/device/device.json
+#: it_management/it_management/doctype/email/email.json
+#: it_management/it_management/doctype/employee_device/employee_device.json
+#: it_management/it_management/doctype/employee_email/employee_email.json
+msgid "Type"
+msgstr ""
+
+#. Option for the 'Type' (Select) field in DocType 'Device'
+#: it_management/it_management/doctype/device/device.json
+msgid "USB"
+msgstr ""
+
+#: it_management/it_management/doctype/email/email.js:11
+msgid "Utilities"
+msgstr ""
+
+#. Label of a Data field in DocType 'SIM'
+#: it_management/it_management/doctype/sim/sim.json
+msgid "VPN"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Vendedor"
+msgstr ""
+
+#. Option for the 'Role' (Select) field in DocType 'Employee'
+#: it_management/it_management/doctype/employee/employee.json
+msgid "Vendedor en Ruta"
+msgstr ""
+
+#. Label of a Data field in DocType 'Device'
+#: it_management/it_management/doctype/device/device.json
+msgid "Warranty"
+msgstr ""
+

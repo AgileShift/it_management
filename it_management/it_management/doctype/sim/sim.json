@@ -12,6 +12,7 @@
  "field_order": [
   "datos_generales_section",
   "sim",
+  "company",
   "column_break_cnru",
   "data_plan",
   "column_break_efip",
@@ -44,7 +45,7 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Plan de Datos"
+   "label": "Data Plan"
   },
   {
    "bold": 1,
@@ -72,7 +73,7 @@
    "fieldname": "call",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Minutos"
+   "label": "Minutes"
   },
   {
    "fieldname": "column_break_udmp",
@@ -110,7 +111,7 @@
    "fieldtype": "Currency",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Costo USD",
+   "label": "Cost",
    "non_negative": 1,
    "options": "Currency:USD:name",
    "precision": "2"
@@ -119,6 +120,13 @@
    "fieldname": "datos_generales_section",
    "fieldtype": "Section Break",
    "label": "Datos Generales"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Select",
+   "label": "Company",
+   "options": "\nDistribuidora Reyes NIC\nDistribuidora Reyes CR\nTransporte Reyes\nKings Exports Imports\nGrupo Reyes",
+   "reqd": 1
   }
  ],
  "grid_page_length": 50,
@@ -132,7 +140,7 @@
    "table_fieldname": "assigned_sims"
   }
  ],
- "modified": "2025-09-30 11:26:02.497843",
+ "modified": "2025-10-17 08:21:14.331226",
  "modified_by": "Administrator",
  "module": "IT Management",
  "name": "SIM",
